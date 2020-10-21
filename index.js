@@ -3,7 +3,7 @@ function add(a, b) {
 }
 
 function subtract(a, b) {
-  return a + b;
+  return a - b;
 }
 
 function multiply(a, b) {
@@ -14,10 +14,10 @@ function divide(a, b) {
   return a / b;
 }
 
-function inc(a) {
-  return a++;
+function increment(n) {
+  return n++;
 }
 
-function dec(a) {
-  return a--;
+function decrement(n) {
+  return n--;
 }
